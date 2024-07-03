@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayasha Choudhary - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1>Ayasha Choudhary</h1>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2 class="typing-animation">Hello, I'm Ayasha Choudhary</h2>
+            <p class="fade-in">A passionate developer specializing in Java and Spring.</p>
+        </div>
+    </section>
+
+    <section id="about" class="fade-in">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello, I'm Ayasha Choudhary. I recently graduated with a degree in Computer Science where I developed a strong foundation in Java programming, software development, and problem-solving. During my academic career, I completed various projects using Java, including an E-commerce website and  frontend applications.These projects enhanced my understanding of object-oriented programming, data structures, and algorithms. Additionally, I have a keen interest in learning new technologies and methodologies to enhance my skills and strength.</p>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <h3>Java</h3>
+                </div>
+                <div class="skill">
+                    <h3>Spring</h3>
+                </div>
+                <div class="skill">
+                    <h3>J2EE</h3>
+                </div>
+                <div class="skill">
+                    <h3>HTML</h3>
+                </div>
+                <div class="skill">
+                    <h3>CSS</h3>
+                </div>
+                <div class="skill">
+                    <h3>Bootstrap</h3>
+                </div>
+                <div class="skill">
+                    <h3>Git</h3>
+                </div>
+                <div class="skill">
+                    <h3>GitHub</h3>
+                </div>
+                <div class="skill">
+                    <h3>MySQL</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-container">
+                <div class="project">
+                    <h3>Green Basket</h3>
+                    <p>
+                        <ul>
+                            <li>
+                                E-commerce website that sells plants.
+                            </li>
+                            <li>
+                                Adding Login page and Sign Up page.
+                            </li>
+                            <li>
+                                Two users buyer and admin are present.
+                            </li>
+                            <li>
+                                Performed CRUD Operation.
+                            </li>
+                            <li>
+                                HTML, CSS, JS, Bootstrap are used for frontend.
+                            </li>
+                            <li>
+                                Spring Boot Framework is used for backend.
+                            </li>
+
+                        </ul>
+                    </p>
+                </div>
+                <div class="project">
+                    <h3>Farming website</h3>
+                    <p><ul>
+                        <li>
+                            Frontend only.
+                        </li>
+                        <li>
+                            HTML, CSS, JS, Bootstrap are used for frontend.
+                        </li>
+
+                    </ul></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <a href="mailto:ayashachoudhary2211@gmail.com">ayashachoudhary2211@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <h3>LinkedIn</h3>
+                    <a href="https://www.linkedin.com/in/ayasha-choudhary-436333255/" target="_blank">Ayasha Choudhary</a>
+                </div>
+                <div class="contact-item">
+                    <h3>Phone</h3>
+                    <p>+91 7985897991</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // JavaScript for smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
